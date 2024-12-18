@@ -16,6 +16,8 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: update
+  boot:
+    message: "This is test"
 
 eureka:
   client:
