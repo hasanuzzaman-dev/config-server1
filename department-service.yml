@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: DEPARTMENT-SERVICE
+  boot:
+    message: "This is test"
 
   datasource:
     url: jdbc:mysql://localhost:3306/department-service
@@ -16,9 +18,7 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
     hibernate:
       ddl-auto: update
-  boot:
-    message: "This is test"
-
+      
 eureka:
   client:
     service-url:
